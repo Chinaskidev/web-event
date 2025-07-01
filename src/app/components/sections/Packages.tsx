@@ -163,7 +163,7 @@ const Packages = () => {
                 </Button>
                 
                 <p className="text-center text-gray-500 text-xs" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-                  * Precios sujetos a ubicación y complejidad del evento
+                  * Aplica Restricciones
                 </p>
               </CardContent>
             </Card>

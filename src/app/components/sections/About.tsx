@@ -32,7 +32,7 @@ const About = () => {
     { 
       icon: <Users className="h-8 w-8 text-purple-500" />,
       number: "50+", 
-      label: "Empresas Confían", 
+      label: "Clientes Confían", 
       description: "En nuestro servicio",
       color: "text-purple-500",
       bg: "bg-purple-50"
@@ -92,7 +92,7 @@ const About = () => {
               
               <p className="text-lg text-gray-600 leading-relaxed" style={{ fontFamily: 'Fredoka, sans-serif' }}>
                 Todo comenzó con un sueño: transformar eventos ordinarios en experiencias extraordinarias. 
-                Desde nuestros humildes inicios, hemos crecido hasta convertirnos en los especialistas más 
+                Desde nuestros inicios, hemos crecido hasta convertirnos en los especialistas más 
                 confiables de Guatemala en decoración con globos.
               </p>
               

@@ -3,8 +3,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { 
   PartyPopper,
-  Gift,
-  Crown,
+  Book,
+  Recycle,
   Cake,
   Heart,
   Sparkles,
@@ -14,31 +14,31 @@ import {
 const Services = () => {
   const services = [
     {
-      icon: <PartyPopper className="h-10 w-10 text-pink-500" />,
-      title: "Decoración de Fiestas",
-      description: "Transformamos tu evento en algo mágico con hermosas decoraciones de globos personalizadas",
-      features: ["Arcos de globos", "Columnas decorativas", "Centros de mesa", "Globos personalizados"],
+      icon: <Book className="h-10 w-10 text-pink-500" />,
+      title: "Cuenta Cuentos con Globos",
+      description: "Crea historias mágicas con globos que cobran vida, ideales para eventos infantiles y fiestas temáticas",
+      features: ["Los niños participan interactivamnete", "Animacion en vivo con violoncello","Usamos estimulos sensoriales para sumergir a los niños en la historia"],
       gradient: "from-pink-50 to-pink-100"
     },
     {
-      icon: <Gift className="h-10 w-10 text-yellow-500" />,
-      title: "Arcos Espectaculares",
-      description: "Arcos impresionantes para bodas, cumpleaños y eventos especiales que marcan la diferencia",
-      features: ["Arcos orgánicos", "Arcos clásicos", "Entrada principal", "Foto backdrop"],
+      icon: <Recycle className="h-10 w-10 text-yellow-500" />,
+      title: "Eco-Globo",
+      description: "Accesorios sostenibles con globos biodegradables y reciclados, para cuidar el medio ambiente",
+      features: ["Argollas Scrunchies", "Aretes Perla Clips", "Aretes con Globo Tejido", "Pulseras con Globos Tejido","Aretes Largos Scrunchies"],
       gradient: "from-yellow-50 to-yellow-100"
     },
     {
-      icon: <Crown className="h-10 w-10 text-green-500" />,
-      title: "Eventos Premium",
-      description: "Decoraciones elegantes y sofisticadas para eventos corporativos y celebraciones VIP",
-      features: ["Diseño exclusivo", "Globos metálicos", "Iluminación LED", "Servicio premium"],
+      icon: <PartyPopper className="h-10 w-10 text-green-500" />,
+      title: "GloboFlexia para eventos",
+      description: "Creamos figuras y esculturas con globos con tematicas únicas para darle un toque especial a tu celebración",
+      features: ["Paquete Basico", "Paquete Intermedio", "Paquete Premium"],
       gradient: "from-green-50 to-green-100"
     },
     {
       icon: <Cake className="h-10 w-10 text-purple-500" />,
       title: "Celebraciones Especiales",
       description: "Cumpleaños, baby showers, graduaciones y toda ocasión que merece ser celebrada",
-      features: ["Temáticas personalizadas", "Números gigantes", "Figuras especiales", "Kit completo"],
+      features: ["Arcos Decorativos","Columnas de Globos", "Centros de Mesa", "Guirnaldas con Globos"],
       gradient: "from-purple-50 to-purple-100"
     }
   ]

@@ -61,7 +61,7 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8">
               {[
-                { number: "500+", label: "Eventos" },
+                { number: "100+", label: "Eventos" },
                 { number: "100%", label: "Satisfacción" },
                 { number: "5+", label: "Años" }
               ].map((stat, index) => (
@@ -101,7 +101,7 @@ const Hero = () => {
                   </div>
                   <div className="space-y-2">
                     <Image
-                      src="/luquetzal.jpeg" // Cambiá esto por la ruta real
+                      src="/luquetzal.jpeg" 
                       alt="Foto de evento"
                       width={600}
                       height={400}
